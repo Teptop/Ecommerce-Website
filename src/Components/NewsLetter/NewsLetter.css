@@ -1,0 +1,139 @@
+.newsLetter{
+    width: 65%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 0px 140px;
+    margin-bottom: 150px;
+    background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
+    gap: 30px;
+}
+.newsLetter h1{
+    color: #454545;
+    font-size: 55px;
+    font-weight: 600;
+}
+.newsLetter p{
+    color: #454545;
+    font-size: 20px;
+}
+.newsLetter div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    width: 730px;
+    height: 70px;
+    border-radius: 80px;
+    border: 1px solid #e3e3e3;
+}
+.newsLetter input{
+    width: 500px;
+    margin-left: 30px;
+    border: none;
+    outline: none;
+    color: #616161;
+    font-family: Poppins;
+    font-size: 16px;
+}
+.newsLetter div button{
+    width: 210px;
+    height: 70px;
+    border-radius: 80px;
+    background: black;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+@media (max-width:1050px) {
+    .newsLetter{
+        width: 65%;
+        height: 40vh;
+        margin-bottom: 150px;
+        gap: 30px;
+    }
+    .newsLetter h1{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .newsLetter p{
+        font-size: 18px;
+    }
+    .newsLetter input{
+        font-size: 15px;
+    }
+    .newsLetter div{
+        height: 4rem;
+    }
+    .newsLetter div button{
+        width: 200px;
+        height: 63px;
+        border-radius: 80px;
+        background: black;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+    }
+}
+@media (max-width:900px){
+    .newsLetter{
+        width: 50%;
+        height: 40vh;
+        margin-bottom: 150px;
+        gap: 30px;
+    }
+    .newsLetter h1{
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .newsLetter p{
+        font-size: 15px;
+    }
+    .newsLetter input{
+        font-size: 13px;
+    }
+    .newsLetter div{
+        height: 3rem;
+        width: 80vh;
+    }
+    .newsLetter div button{
+        width: 170px;
+        height: 53px;
+        border-radius: 80px;
+        background: black;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+    }
+}
+@media (max-width:750px){
+    .newsLetter{
+        width: 40%;
+        height: 40vh;
+        margin-bottom: 100px;
+        gap: 30px;
+    }
+    .newsLetter h1{
+        font-size: 17px;
+        font-weight: 600;
+    }
+    .newsLetter p{
+        font-size: 11px;
+    }
+    .newsLetter input{
+        font-size: 11px;
+    }
+    .newsLetter div{
+        height: 2.6rem;
+        width: 55vh;
+    }
+    .newsLetter div button{
+        width: 170px;
+        height: 43px;
+        font-size: 13px;
+    }
+}
